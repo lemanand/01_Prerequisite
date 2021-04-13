@@ -32,6 +32,7 @@
 - SAS Viya Monitoring for Kubernetes:
   - prometheus / grafana: Software to monitor Kubernetes easier
   - kibana: Software to aggregae and search logs easier
+- Visual Studio Code: Text editor that is recommended
 - yq: Like jq, but for YAML
 - sed: Way to search and replace in Linux
 
