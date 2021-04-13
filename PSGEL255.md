@@ -22,6 +22,10 @@
 - Manual and Automated (Cheatcodes) processes
 - Kubernetes 1.18 on Azure AKS
 
+**1.2 Reference Material Index**
+- **[Documentation in SAS Help Center (Test Environment)](http://pubsweb.na.sas.com/eds2/edittest/DraftDocHub.html) (The most important document!)**
+- dfdsfd
+- 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
