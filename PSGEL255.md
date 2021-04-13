@@ -24,6 +24,8 @@
 
 **1.2 Reference Material Index**
 - **[Documentation in SAS Help Center (Test Environment)](http://pubsweb.na.sas.com/eds2/edittest/DraftDocHub.html) (The most important document!)**
+- [Kubernetes standard icons](https://user-images.githubusercontent.com/47553149/114536931-912e0980-9c8c-11eb-8970-fb8ec1b70447.png)
+](https://github.com/kubernetes/community/tree/master/icons)
 - YAML: YAML Ain't Markup Language
 - kubectl: Kubernetes CLI
 - kustomize: Tool to generate Kubernetes manifests
