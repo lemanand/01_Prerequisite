@@ -17,6 +17,11 @@
 ---
 
 ### Chapter 01. Introduction <a name='Ch01'></a>
+**1.1 Workshop Introduction**
+- Viya 4 has Cadence (like version) and Release
+- Manual and Automated (Cheatcodes) processes
+- Kubernetes 1.18 on Azure AKS
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
