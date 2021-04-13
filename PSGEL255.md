@@ -24,7 +24,12 @@
 
 **1.2 Reference Material Index**
 - **[Documentation in SAS Help Center (Test Environment)](http://pubsweb.na.sas.com/eds2/edittest/DraftDocHub.html) (The most important document!)**
-- dfdsfd
+- YAML: YAML Ain't Markup Language
+- kubectl: Kubernetes CLI
+- kustomize: Tool to generate Kubernetes manifests
+- helm: Tool to deploy applications on Kubernetes easier
+- rancher: Software to administratge Kubernetes easier
+- 
 - 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
