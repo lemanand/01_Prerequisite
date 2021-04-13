@@ -29,8 +29,12 @@
 - kustomize: Tool to generate Kubernetes manifests
 - helm: Tool to deploy applications on Kubernetes easier
 - rancher: Software to administratge Kubernetes easier
-- 
-- 
+- SAS Viya Monitoring for Kubernetes:
+  - prometheus / grafana: Software to monitor Kubernetes easier
+  - kibana: Software to aggregae and search logs easier
+- yq: Like jq, but for YAML
+- sed: Way to search and replace in Linux
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
