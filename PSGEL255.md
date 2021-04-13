@@ -33,7 +33,7 @@
   - prometheus / grafana: Software to monitor Kubernetes easier
   - kibana: Software to aggregae and search logs easier
 - Visual Studio Code: Text editor that is recommended
-- yq: Like jq, but for YAML
+- yq: Like jq, but for YAML query
 - sed: Way to search and replace in Linux
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
