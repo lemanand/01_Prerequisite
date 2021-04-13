@@ -18,7 +18,7 @@
 
 ### Chapter 01. Introduction <a name='Ch01'></a>
 **1.1 Workshop Introduction**
-- Viya 4 has Cadence (like version) and Release
+- Viya 4 has Cadence (Version) and Release
 - Manual and Automated (Cheatcodes) processes
 - Kubernetes 1.18 on Azure AKS
 
