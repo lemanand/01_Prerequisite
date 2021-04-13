@@ -35,6 +35,7 @@
 - Visual Studio Code: Text editor that is recommended
 - yq: Like jq, but for YAML query
 - sed: Way to search and replace in Linux
+- terraform: Infrastructure as Code tooling. Allows to spin IaaS resources up and down
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
