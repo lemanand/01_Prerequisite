@@ -16,14 +16,7 @@
 
 ---
 
-<details><summary><b> Chapter 01. Introduction </b></summary> <a name='Ch01'></a>
-<br/>
-  
-fdsfdsfdfadsf
-</details>
-
-
-### Chapter 01. Introduction <a name='Ch01fds'></a>
+### Chapter 01. Introduction <a name='Ch01'></a>
 **1.1 Workshop Introduction**
 - Viya 4 has Cadence (like version) and Release
 - Manual and Automated (Cheatcodes) processes
