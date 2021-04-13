@@ -38,6 +38,9 @@
 - sed: Way to search and replace in Linux
 - terraform: Infrastructure as Code tooling. Allows to spin IaaS resources up and down
 
+**1.3 Lab Environment Information**
+- [Viya 4 - Deployment Collection [GEL] Viya 4 - Deployment Collection](http://race.exnet.sas.com/Reservations?action=new&imageId=220997&imageKind=C&comment=C1%20-%20Viya%204%20Deployment%20-%205-Machine%20K8s%20Cluster&purpose=PST&sso=PSGEL255&schedtype=SchedTrainEDU&startDate=now&endDateLength=0&discardonterminate=y) 
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
