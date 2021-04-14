@@ -95,8 +95,13 @@
     - URLs seen by end-user
     - Name of Kubernetes Namespace in which to deploy
 
-4. Build Deployment Manifest
-5. Apply Deployment Manifest
+**3. Build Deployment Manifest**
+  - Complies all the deployment files ito a single Manifest file
+  - Default name of Manifest is "site.yaml"
+  - Between 20,000 and 60,000 lines of YAML
+  - Describes what your deployment is suppoesed to look like, by describing Kubernetes objects (Deployment, Statfulsets, Persistent Volumes, Ingresses, Services, Secrets, ConfigMaps, etc.)
+  - 
+**4. Apply Deployment Manifest**
 
 
 
