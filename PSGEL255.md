@@ -55,6 +55,10 @@
 - **Viya 4 Cadences (Tracks, Version)**
   - ***Stable (Every Month)***
   - ***LTS (Every 6 Months) - Long Term Support (LTS)***
+- Default install of Viya 2020 will not automatically keep itself updated. However, you can
+  - Automate the process
+  - Requires extra CI/CD tools to be used and configured by customer
+  - Use the SAS Deployment Operator
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
