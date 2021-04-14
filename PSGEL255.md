@@ -160,7 +160,8 @@ docker image save centos:7  > /tmp/mynewcentosimage.tar
 docker image load < /tmp/mynewcentosimage.tar
 ```
 
-
+**2.5 Containers Basic Concepts - VMs vs Containers**
+- dd
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
