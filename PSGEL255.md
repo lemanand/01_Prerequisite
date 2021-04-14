@@ -122,7 +122,10 @@
 - [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
 **2.2 Containers Basic Concepts - Images vs Instances**
-- dd
+- Container Image
+  - "Like MS Word document, .doc"
+- Container Instance
+  - "Printed version of MS Word document"
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
