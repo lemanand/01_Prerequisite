@@ -100,10 +100,11 @@
   - Default name of Manifest is "site.yaml"
   - Between 20,000 and 60,000 lines of YAML
   - Describes what your deployment is suppoesed to look like, by describing Kubernetes objects (Deployment, Statfulsets, Persistent Volumes, Ingresses, Services, Secrets, ConfigMaps, etc.)
-  - 
+  - Creatin of the manifest file does not deploy the software
+ 
 **4. Apply Deployment Manifest**
-
-
+- Applying the maifest instructs Kubernetes to create (or update) al the Kubernetes ojects described inthe manifest
+- This will both "deploy" and "start" the software simultaneously
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
