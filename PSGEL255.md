@@ -139,7 +139,13 @@
   - Basic, Standard and Advanced Tiers
 
 **2.4 Containers Basic Concepts - Images**
-- dddd
+- "Dockerfile" contains a set of instuctions on how to build the image:
+  - Layers/Ingredients:
+    - Parent/Base Image
+    - Libraries and pre-reqs
+    - Actual Application
+    - Configuration files
+  - Instruction on how to assemble the layers
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
