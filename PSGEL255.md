@@ -80,6 +80,16 @@
   3. Build Deployment Manifest
   4. Apply Deployment Manifest
 
+**1. Obtain Deployment Asseets**
+  - Obtain it from the my.sas.com portal
+  - It is a file with .tgz extension
+
+3. Create/Adjust Deployment Files
+4. Build Deployment Manifest
+5. Apply Deployment Manifest
+
+
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
