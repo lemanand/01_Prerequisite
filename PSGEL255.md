@@ -152,7 +152,7 @@ docker build -t myposi:v01 -f ./Dockerfile .
 ```
 - You can always add your own layers on top of the other images
 - Save an image to a .tar file
-  ``` bash
+  ```bash
   docker image save centos:7  > /tmp/mynewcentosimage.tar
   ```
 - Load an image from a .tar file
