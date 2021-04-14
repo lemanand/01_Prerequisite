@@ -122,10 +122,13 @@
 - [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
 
 **2.2 Containers Basic Concepts - Images vs Instances**
-- Container Image
-  - "Like MS Word document, .doc"
-- Container Instance
-  - "Printed version of MS Word document"
+- **Container Image:** "Like MS Word document, .doc"
+- **Container Instance:** "Printed version of MS Word document"
+- From an image we can generate multiple instances. All instances are identical "at birth".
+- **Image = Docker Image**
+  - Immmutable file, that is essentially a snapshot of a container
+- **Container = Docker Container = Container Instance**
+  - Result of running and image
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
