@@ -106,6 +106,14 @@
 - Applying the maifest instructs Kubernetes to create (or update) al the Kubernetes ojects described inthe manifest
 - This will both "deploy" and "start" the software simultaneously
 
+**What if deployment fails?**
+- Small mistake (wrong ingress name, SMP instead of MPP)
+  - Re-run through the steps (except downloading assets)
+- Big mistake (wrong order, wrong version, wrong namespace, or method above does not work)
+  - Delete the Namespace
+  - Re-create the Namespace
+  - Re-run though all the steps
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
