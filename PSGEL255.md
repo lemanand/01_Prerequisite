@@ -52,7 +52,9 @@
 - Customers can deploy in their own Kubernetes OR
 - Customers can have it hosted by SAS (on SAS Cloud) OR
 - Customers can get SAS Remote Managed Service to control their Cloud
-
+- **Viya 4 Cadences (Tracks, Version)**
+  - ***Stable (Every Month)***
+  - ***LTS (Every 6 Months)***
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
