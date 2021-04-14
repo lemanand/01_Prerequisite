@@ -54,7 +54,7 @@
 - Customers can get SAS Remote Managed Service to control their Cloud
 - **Viya 4 Cadences (Tracks, Version)**
   - ***Stable (Every Month)***
-  - ***LTS (Every 6 Months)***
+  - ***LTS (Every 6 Months) - Long Term Support (LTS)***
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
