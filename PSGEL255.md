@@ -1,5 +1,5 @@
 # Deploying Viya4.0 (PSGEL255)
-- #### [Slides](https://eduvle.sas.com/course/view.php?id=1968) | [Hands-On](https://gitlab.sas.com/GEL/workshops/PSGEL255-deploying-viya-4.0.1-on-kubernetes)
+- #### [Course](https://eduvle.sas.com/course/view.php?id=1968) | [Hands-On](https://gitlab.sas.com/GEL/workshops/PSGEL255-deploying-viya-4.0.1-on-kubernetes)
 
 ---
 
@@ -115,6 +115,9 @@
   - Re-run though all the steps
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
+**2.1 Containers Basic Concepts**
+- dfd
+- 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
