@@ -1,5 +1,6 @@
 # Deploying Viya4.0 (PSGEL255)
 - #### [Slides](https://eduvle.sas.com/course/view.php?id=1968) | [Hands-On](https://gitlab.sas.com/GEL/workshops/PSGEL255-deploying-viya-4.0.1-on-kubernetes)
+
 ---
 
 ##### [Chapter 01. Introduction](#Ch01)
@@ -41,6 +42,17 @@
 **1.3 Lab Environment Information**
 - [Viya 4 - Deployment Collection [GEL] Viya 4 - Deployment Collection](http://race.exnet.sas.com/Reservations?action=new&imageId=220997&imageKind=C&comment=C1%20-%20Viya%204%20Deployment%20-%205-Machine%20K8s%20Cluster&purpose=PST&sso=PSGEL255&schedtype=SchedTrainEDU&startDate=now&endDateLength=0&discardonterminate=y) 
 - "sas-gelsandbox" Azure subscription
+
+**1.4 Viya 4 - Highlights**
+- Software is packaged and delivered as container images
+  - YUM packages, RPMs, .msi file, etc. are no longer available
+- Kubernetes 1.18+ for Viya 2020.1
+- ***Viya 4 is supported on-cloud or on-prem***
+  - Wherever you Kubernetes is
+- Customers can deploy in their own Kubernetes OR
+- Customers can have it hosted by SAS (on SAS Cloud) OR
+- Customers can get SAS Remote Managed Service to control their Cloud
+
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
