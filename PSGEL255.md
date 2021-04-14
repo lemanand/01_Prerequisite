@@ -129,6 +129,10 @@
   - Immmutable file, that is essentially a snapshot of a container
 - **Container = Docker Container = Container Instance**
   - Result of running and image
+- **Docker Registry:** contains Docker Images
+
+**2.3 Containers Basic Concepts - Docker**
+- d
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
