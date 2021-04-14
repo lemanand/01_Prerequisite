@@ -73,6 +73,13 @@
   - Requires extra CI/CD tools to be used and configured by customer
   - Use the SAS Deployment Operator
 
+**1.5 Deploying Viya 4 on Kubernetes - High-Level Introduction**
+- Main steps for deployment from scratch:
+  1. Obtain Deployment Asseets
+  2. Create/Adjust Deployment Files
+  3. Build Deployment Manifest
+  4. Apply Deployment Manifest
+
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
