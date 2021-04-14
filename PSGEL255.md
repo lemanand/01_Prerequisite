@@ -146,6 +146,21 @@
     - Actual Application
     - Configuration files
   - Instruction on how to assemble the layers
+- Commnad used to build a new image:
+```bash
+docker build -t myposi:v01 -f ./Dockerfile .
+```
+- You can always add your own layers on top of the other images
+- Save an image to a .tar file
+  ``` bash
+  docker image save centos:7  > /tmp/mynewcentosimage.tar
+  ```
+- Load an image from a .tar file
+  ```bash
+  docker image load < /tmp/mynewcentosimage.tar
+  ```
+
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
