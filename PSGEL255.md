@@ -116,8 +116,14 @@
 
 ### Chapter 02. Kubernetes and Containers Fundamentals <a name='Ch02'></a>
 **2.1 Containers Basic Concepts**
-- dfd
-- 
+- Container technology is not new (BSD Jails, Solaris Zones, AIX WPARS)
+- [What are containers and why do you need them?](https://www.cio.com/article/2924995/what-are-containers-and-why-do-you-need-them.html)
+- [Containers at Google](https://cloud.google.com/containers/)
+- [What is Docker and why is it so darn popular?](https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/)
+
+**2.2 Containers Basic Concepts - Images vs Instances**
+- dd
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
