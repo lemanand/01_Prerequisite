@@ -138,6 +138,9 @@
 - Docker EE (Enterprise Edition) is not free and comes with support
   - Basic, Standard and Advanced Tiers
 
+**2.4 Containers Basic Concepts - Images**
+- dddd
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
