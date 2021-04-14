@@ -132,7 +132,11 @@
 - **Docker Registry:** contains Docker Images
 
 **2.3 Containers Basic Concepts - Docker**
-- d
+- Docker Engine: builds and runs your containers
+- Docker Client: sends commands to the Docker Daemon inside the DOcker Image
+- Docker CE (Community Edition) can be used free of charge
+- Docker EE (Enterprise Edition) is not free and comes with support
+  - Basic, Standard and Advanced Tiers
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
