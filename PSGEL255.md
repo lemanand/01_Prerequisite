@@ -84,8 +84,17 @@
 **1. Obtain Deployment Asseets**
   - Obtain it from the my.sas.com portal
   - It is a file with .tgz extension
+  - Choose the latest
 
-3. Create/Adjust Deployment Files
+**2. Create/Adjust Deployment Files**
+  - Create a file called "kustomization.yaml"
+  - This is how you chooses:
+    - SMP or MPP
+    - Postgres in Pod or Postgres in Managed Cloud Database
+    - HA or no HA
+    - URLs seen by end-user
+    - Name of Kubernetes Namespace in which to deploy
+
 4. Build Deployment Manifest
 5. Apply Deployment Manifest
 
