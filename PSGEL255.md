@@ -74,7 +74,8 @@
   - Use the SAS Deployment Operator
 
 **1.5 Deploying Viya 4 on Kubernetes - High-Level Introduction**
-- Main steps for deployment from scratch:
+
+**Main steps for deployment from scratch:**
   1. Obtain Deployment Asseets
   2. Create/Adjust Deployment Files
   3. Build Deployment Manifest
