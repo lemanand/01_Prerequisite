@@ -42,7 +42,20 @@
 **1.3 Lab Environment Information**
 - [Viya 4 - Deployment Collection [GEL] Viya 4 - Deployment Collection](http://race.exnet.sas.com/Reservations?action=new&imageId=220997&imageKind=C&comment=C1%20-%20Viya%204%20Deployment%20-%205-Machine%20K8s%20Cluster&purpose=PST&sso=PSGEL255&schedtype=SchedTrainEDU&startDate=now&endDateLength=0&discardonterminate=y) 
 - "sas-gelsandbox" Azure subscription
-
+- Execute the following command on sasnode01:
+  ```bash
+  tail -f /opt/raceutils/logs/$(hostname).bootstrap.log
+  ```
+- Wait for the last line to say:
+  ```bash
+  03/16/20 18:15:38: Done running script /tmp/testclone/scripts/loop/GEL.99.TheEnd.sh
+  ```
+- Execute the following commands to see if Kubernetes is responding:
+  ```bash
+  kubectl cluster-info
+  kubectl get nodes 
+  ```
+  
 **1.4 Viya 4 - Highlights**
 - Software is packaged and delivered as container images
   - YUM packages, RPMs, .msi file, etc. are no longer available
