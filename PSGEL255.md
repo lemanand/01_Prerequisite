@@ -165,7 +165,11 @@ docker image load < /tmp/mynewcentosimage.tar
 - Containers and VMs are only alike in that they both provide isolation.
   - [Containerization is not Virtualization](https://medium.com/on-docker/containerization-is-not-virtualization-c7a9b841518)
   - [Containers Are Not Lightweight VMs](https://www.linuxfoundation.org/blog/2017/05/containers-are-not-lightweight-vms/)
-
+- HyperVisor (Type 2) - VirtualBox, VMWare
+- HyperVisor (Type 1) - VMWare vSphere (OS+Hypervisor all in one)
+- VMs can be used for Stateless or Stateful application
+- Containers are perfect for Stateless application
+- 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
