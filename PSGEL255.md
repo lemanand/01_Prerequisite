@@ -492,8 +492,25 @@ kubectl get po --all-namespaces
 
 kubectl -n kube-system describe po canal-546dh
 
+# Manifest files
+tee /tmp/sleep.yaml > /dev/null << EOF
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox-sleep
+spec:
+  containers:
+    - name: busybox
+      image: busybox
+      args:
+      - sleep
+      - "1000000"
+EOF
 
-
+kubectl apply -f /tmp/sleep.yaml
+kubectl get po -o wide
+kubectl exec -it busybox-sleep -- ps -ef
 ```
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
