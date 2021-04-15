@@ -371,7 +371,19 @@ docker image load < /tmp/mynewcentosimage.tar
     - Namespaces provide a way to divide cluster resources between multiple applications (via resource quota)
   - Namespaces provide logical separation and a mechanism to logically group Kubernetes objects
   - Namespaces provide a useful mechanism to provide some level of multi-tenancy
-  -
+
+- Kubernetes Volumes
+  - The problem: On-disk files in a Container are ephemeral
+  - So how do you make use of different storage types and persist data?
+    - The Kubernetes Volume abstration allows data to persist and/or be shared between Containers in a Pod or shared across Pods
+    - A kubernetes volume is just a directory (possibly with some data in it) which is accessible to the Container(s) in a Pod
+    - Kubernetes support many types of volumes, and a Pod can use any number of them simultaneously
+    - The lifetime of the volume depends on its type
+    - The Volume types include (and more):
+      - local, hostPath, emptyDir
+      - nfs, persistentVolumeClaim
+
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
