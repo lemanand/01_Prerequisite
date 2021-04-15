@@ -230,14 +230,13 @@ docker image load < /tmp/mynewcentosimage.tar
   - Shared FS
 
 - **Container File System**
-A container has its own file system (/)
-That filesystem can only be stored "somewhere on the disk of the docker host". 
-Not out of thin air
-Not a remote file system (usually not)
-Containers can NOT access each other's file system
-The filesystem is really a clone of what's in the docker image
-A container's filesystem is gone as soon as the container is terminated
-![image](https://user-images.githubusercontent.com/47553149/114813777-c4d47500-9ded-11eb-8b7d-d5197cb1c2fa.png)
+  - A container has its own file system (/)
+    - That filesystem can only be stored "somewhere on the disk of the docker host". 
+    - The filesystem is really a clone of what's in the docker image
+  - A container's filesystem is gone as soon as the container is terminated
+- Containers can NOT access each other's file system
+
+- **Bind Mount**
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
