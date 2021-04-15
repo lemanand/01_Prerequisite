@@ -390,7 +390,10 @@ docker image load < /tmp/mynewcentosimage.tar
     - Deploying an application
     - Handling application upgrades
     - Performing admin tasks such as taking system backups
-
+  - You can use an Operator to deploy the SAS Viya 4 software
+    - The SAS Viya Deployment Operator provides and automated method for deploying and updating your SAS Viya deployment
+    - The operator is not part of the SAS Viya deployment but is deployed in the SAS Viya namespace
+    - Use of the SAS Viya Deployhment Operator is optional
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
