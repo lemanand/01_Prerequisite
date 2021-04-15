@@ -292,6 +292,10 @@ docker image load < /tmp/mynewcentosimage.tar
 - docker push: the action of uploading a copy of the local image up into a docker registry
 - docker pull: the action of downloading a copy of an image from the registry onto the local machine
 
+- Docker Registry ≠ Docker Repository
+  - Registry: Holds images. Hands them out when asked nicely
+  - Repository: a collection of related Docker images often with the same name but with different tags (versions) of the same application
+  - [Difference between Docker registry and repository](https://stackoverflow.com/questions/34004076/difference-between-docker-registry-and-repository)
 
 
 
