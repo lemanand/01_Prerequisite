@@ -286,8 +286,12 @@ docker image load < /tmp/mynewcentosimage.tar
     docker run -it -v my_nfs_share:/nfs centos:7 bash
     ```
 **2.9 Containers Basic Concepts - Image Registry**
-- dfdsf
-- 
+- Docker Registries hold Docker Images
+  - Like a YUM mirror contains RPM packages
+  - Like github contains code
+- docker push: the action of uploading a copy of the local image up into a docker registry
+- docker pull: the action of downloading a copy of an image from the registry onto the local machine
+
 
 
 
