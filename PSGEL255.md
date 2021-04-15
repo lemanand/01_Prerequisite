@@ -193,6 +193,8 @@ docker image load < /tmp/mynewcentosimage.tar
     - If a new image “breaks” the application, it’s easy to roll back to the previous version
     - Not so easy when changes were manual, and mis-documented
 
+**2.8 Containers Basic Concepts - State**
+- dd
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
