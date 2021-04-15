@@ -169,7 +169,16 @@ docker image load < /tmp/mynewcentosimage.tar
 - HyperVisor (Type 1) - VMWare vSphere (OS+Hypervisor all in one)
 - VMs can be used for Stateless or Stateful application
 - Containers are perfect for Stateless application
-- 
+
+**2.6 Containers Basic Concepts - Inside or outside**
+- Containers are isolated froma each other and can use the same ports.
+- By default, ports inside the container are only available from inside the container.
+- You need t opublish the ports to make them available externally (to the host, to anywhere)
+  On the docker host itself, there can only be one component/service on the port
+
+**2.7 Containers Basic Concepts - Immutable Architecture**
+- dd
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
