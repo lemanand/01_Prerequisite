@@ -194,7 +194,9 @@ docker image load < /tmp/mynewcentosimage.tar
     - Not so easy when changes were manual, and mis-documented
 
 **2.8 Containers Basic Concepts - State**
-- dd
+- If you should back it up ***regularly***, it’s **stateful**
+- If you can back it up only ***once***, it’s **stateless**
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
