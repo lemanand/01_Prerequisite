@@ -318,6 +318,14 @@ docker image load < /tmp/mynewcentosimage.tar
   - No more than 5,000 nodes
   - No more than 150,000 pods
   - No more than 300,000 containers
+- Kubernetes Nodes:
+  - Nodes can e a physical or virtual instance of a server
+  - Nodes can vary in size
+  - Nodes will host your applications, running as containers
+  - Nodes can be independenctly started and stopped
+- Containers
+  - Instead of configuring a machine to host your application, you have your application wrapped into a container
+  - The application is wrapped along with everything the application neeeds - OS, libraries, dependencies, etc. 
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
