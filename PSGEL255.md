@@ -177,12 +177,21 @@ docker image load < /tmp/mynewcentosimage.tar
   On the docker host itself, there can only be one component/service on the port
 
 **2.7 Containers Basic Concepts - Immutable Architecture**
-- Immutable architecture:
+- Immutable Architecture:
   - Unchanging over time or unable to be changed
   - This of it as VM where everything is read-only
   - Don't update. Replace.
   - If you successfully launched one environment from a set of images, you will always be able to launch another environment
-
+- Why Immutable Architecture?
+  - Preventing a server from changing is key to keeping it running:
+    - no human error
+    - no unintended consequences
+    - no degradation over time
+    - no "snowflake" server
+  - If a server was to change (drift away from desired state), all you have to do is kill it a replace with a fresh one, built from the original image
+  - Trace-ability, rollback
+    - If a new image “breaks” the application, it’s easy to roll back to the previous version
+    - Not so easy when changes were manual, and mis-documented
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
