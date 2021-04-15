@@ -353,6 +353,14 @@ docker image load < /tmp/mynewcentosimage.tar
     - So we need a "static" way of accessing a Pod or group of Pods
     - The Service provides this mapping
 
+- Kubernetes NodePort
+  - A Kubernetes NodePort is a type of Publishing Service
+  - For some parts of your application you may want to expose a Service onto an external IP address, you can use a NodePort to do this
+  - A NodePort exposes the Service on each Node's IP at a static port
+
+- Kubernetes Ingress & Ingress Controllers
+  - ddd
+  - 
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
