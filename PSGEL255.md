@@ -335,9 +335,24 @@ docker image load < /tmp/mynewcentosimage.tar
   - Pods are hosted on the Nodes, Kubernetes will determine which Node will host a Pod
   - A Pod is assigned a unique network identiy (IP address) which is independent of the node on which the pod is running
  
- - Immutability and Declarative Deployment are conrnerstones of Kubernetes
-   - Immutable architecture: unchanging over time or unable to be changed
-   - Declarative Deploymnet: tell Kubernetes what the desired state should be (you declare it)
+- Immutability and Declarative Deployment are conrnerstones of Kubernetes
+  - Immutable architecture: unchanging over time or unable to be changed
+  - Declarative Deploymnet: tell Kubernetes what the desired state should be (you declare it)
+    - Kubernetes uses Deployments to manage these requirements
+
+- Kubernetes Deployments
+  - It is Kubernetes job to ensure that the desired state is achieved
+  - That the required number of pod replicas are running
+
+- Kubernetes Service
+  - A Kubernetes Service is an abstraction which defines a logical set of Pods and a policy by which to access them
+  - But why do I need a service?
+    - Pods are transient. They start, they die, get restarted, they can be randomly assigned to a Kubernetes node
+    - Pods don't move from node to node, they are replaced (stopped & restarted)
+    - There may be more than one replica of a Pod
+    - So we need a "static" way of accessing a Pod or group of Pods
+    - The Service provides this mapping
+
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
