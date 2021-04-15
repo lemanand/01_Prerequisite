@@ -359,9 +359,19 @@ docker image load < /tmp/mynewcentosimage.tar
   - A NodePort exposes the Service on each Node's IP at a static port
 
 - Kubernetes Ingress & Ingress Controllers
-  - ddd
-  - 
+  - Services support the communication from within the Cluster
+  - An Ingress exposes HTTP and HTTPS routes from outside the Cluster to Services within the Cluster
+  - Traffic routing is controlled by rules defined onthe Ingress resource
+  - An Ingress Controller is responsible for fulfilling the Ingress
+  - Commonly used Ingress Controllers include:
+    - Traefix, NGINX, Istio, AWS ELB ..
 
+- Kubernetes Namespace
+  - Namespaces are a way of creating "virtual clusters within a single physical Kubernetes cluster
+    - Namespaces provide a way to divide cluster resources between multiple applications (via resource quota)
+  - Namespaces provide logical separation and a mechanism to logically group Kubernetes objects
+  - Namespaces provide a useful mechanism to provide some level of multi-tenancy
+  -
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
