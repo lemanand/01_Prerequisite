@@ -206,6 +206,21 @@ docker image load < /tmp/mynewcentosimage.tar
   - The results from actions are not seen as valuable over time
   - Stateless actions can ultimately trigger a stateful application to save the output
   - May require some redundancy to provide high availability for an application
+- Containers in general are great at doing Stateless
+  - Static Website that gets updated infrequently
+  - Microservices which provide short lived actions whose state does not need to be preserved
+  - Short batch job that pulls data from DB, creates forecast, and stores results back in DB
+- Containers for Stateful applications require storage
+  - Without storage external to the container the immutability of the container is no longer
+  - Containerizing stateful applications requires careful design and considerations
+  - For stateful applications to be containerized, the state will be persisted outside the container:
+    - in a database
+    - in an object Store (e.g. AWS S3)
+    - in a local folder on the docker host
+    - in a shared folder (e.g. NFS)
+    - in a durable storage location (e.g. AWS EBS)
+  - If persisted data gets corrupted ... environment is corrupted...
+
 
 
 
