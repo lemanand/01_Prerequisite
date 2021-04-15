@@ -334,7 +334,11 @@ docker image load < /tmp/mynewcentosimage.tar
   - A Pod can hold multipl containers, but usually contain one container
   - Pods are hosted on the Nodes, Kubernetes will determine which Node will host a Pod
   - A Pod is assigned a unique network identiy (IP address) which is independent of the node on which the pod is running
-  - 
+ 
+ - Immutability and Declarative Deployment are conrnerstones of Kubernetes
+   - Immutable architecture: unchanging over time or unable to be changed
+   - Declarative Deploymnet: tell Kubernetes what the desired state should be (you declare it)
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
