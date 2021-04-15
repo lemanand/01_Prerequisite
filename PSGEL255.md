@@ -196,12 +196,12 @@ docker image load < /tmp/mynewcentosimage.tar
 **2.8 Containers Basic Concepts - State**
 - If you should back it up ***regularly***, it’s **stateful**
 - If you can back it up only ***once***, it’s **stateless**
-- Stateful applications (such as DB): 
+- **Stateful applications** (such as DB): 
   - The information will be reused over time and is of value to one or more consumers
   - The state reflects interdependent transactions over time
   - Changes over time
   - Needs to be backed-up regularly
-- Stateless applications (such as mouse click): 
+- **Stateless applications** (such as mouse click): 
   - Typically large number of easy to replicate transactions
   - The results from actions are not seen as valuable over time
   - Stateless actions can ultimately trigger a stateful application to save the output
