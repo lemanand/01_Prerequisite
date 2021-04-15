@@ -462,6 +462,19 @@ kubectl -n prod get pods
 kuectl config set-context --current --namespace=prod
 kubectl get pods
 ```
+
+**2.13 Kubernetes Basic Concepts - Management and CLI**
+- To be efficient, you'll have to use the kubectl CLI
+```bash
+kubectl version --short
+kubectl version
+
+kubectl cluster-info
+kubectl get nodes
+kubectl get ns
+
+```
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
