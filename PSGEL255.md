@@ -383,6 +383,14 @@ docker image load < /tmp/mynewcentosimage.tar
       - local, hostPath, emptyDir
       - nfs, persistentVolumeClaim
 
+- Kubernetes Operators
+  - Kubernetes operator pattern
+    - Operators are software extensions to Kubernetes that make use of custom resources to manage applications and their components
+  - Operators can be used to automate many tasks, including:
+    - Deploying an application
+    - Handling application upgrades
+    - Performing admin tasks such as taking system backups
+
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
