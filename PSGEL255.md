@@ -448,9 +448,20 @@ kubectl delete ns hare
 # The Slow way
 kubectl delete -f /tmp/turtle_namespace.yaml
 ```
-- 
-
-
+- A namespace has no size, unless a specific limit is set
+- A namespace is not specific to any node
+- Namespaces are mostly isolated from each other
+  - By default, apps can communicate with each other across namespaces
+  - Unless you configure specific network policies to disallow it
+- Display what pods are in a namespace:
+```bash
+kubectl -n prod get pods
+```
+- Permanently change the default namespace:
+```bash
+kuectl config set-context --current --namespace=prod
+kubectl get pods
+```
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
