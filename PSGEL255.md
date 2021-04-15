@@ -513,6 +513,18 @@ kubectl get po -o wide
 kubectl exec -it busybox-sleep -- ps -ef
 ```
 
+- TMUX is useful tool to keep watching activity or monitoring process
+```bash
+tmux <enter>
+watch kubectl -n monitoring get po -o wide
+
+# Devide screen
+<ctl-b> then <">
+
+# Exit from TMUX
+<ctl-b> <d>
+```
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
