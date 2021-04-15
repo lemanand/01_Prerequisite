@@ -161,7 +161,10 @@ docker image load < /tmp/mynewcentosimage.tar
 ```
 
 **2.5 Containers Basic Concepts - VMs vs Containers**
-- dd
+- Containers are a more lightweight virtualization. It is OS-level virtualizaiton.
+- Containers and VMs are only alike in that they both provide isolation.
+  - [Containerization is not Virtualization](https://medium.com/on-docker/containerization-is-not-virtualization-c7a9b841518)
+  - [Containers Are Not Lightweight VMs](https://www.linuxfoundation.org/blog/2017/05/containers-are-not-lightweight-vms/)
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
