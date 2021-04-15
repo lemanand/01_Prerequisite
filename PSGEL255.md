@@ -328,7 +328,13 @@ docker image load < /tmp/mynewcentosimage.tar
   - The application is wrapped along with everything the application neeeds - OS, libraries, dependencies, etc. 
   - Containers are deployed on a machine that hosts the container engine which is in charge of actually running the containers
   - Containers technically don't belong to Kubernetes; they're just one of the tools of the trade
- 
+- Kubernetes Pods
+  - A Pod is the smallest deployable compute object in Kubernetes
+  - A Pod encapsulates an applications' container and related storage resources
+  - A Pod can hold multipl containers, but usually contain one container
+  - Pods are hosted on the Nodes, Kubernetes will determine which Node will host a Pod
+  - A Pod is assigned a unique network identiy (IP address) which is independent of the node on which the pod is running
+  - 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
