@@ -297,7 +297,20 @@ docker image load < /tmp/mynewcentosimage.tar
   - Repository: a collection of related Docker images often with the same name but with different tags (versions) of the same application
   - [Difference between Docker registry and repository](https://stackoverflow.com/questions/34004076/difference-between-docker-registry-and-repository)
 
+- Image ID is a unique id of an image
+- Tag maps a descriptive user-given name to an image ID
 
+- When do you need a registry?
+  - Docker registry is:
+    - required when containers run on Kubernetes
+    - the customer is responsible for providing you with the registry information and how to connect to it
+  - Docker registry is:
+    - Optional when containers run on a single Docker Host
+      (because the host that builds the image has the local version of the image)
+    - If you need to use an image on multiple machines ... 
+      you could    export   -    scp   -    import 
+      OR you could push your image to a registry and tell your colleagues how to pull the image down 
+      
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
