@@ -523,6 +523,10 @@ watch kubectl -n monitoring get po -o wide
 
 # Exit from TMUX
 <ctl-b> <d>
+
+OR
+
+exit <ctrl+c> exit
 ```
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
