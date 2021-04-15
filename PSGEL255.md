@@ -264,13 +264,12 @@ docker image load < /tmp/mynewcentosimage.tar
  
  - **Docker tmpfs mount**
    - tmpfs allows you to mount the Docker hosts' memory as if it was disk:
-   
+   ```bash
    docker run -it --tmpfs /app centos:7  df -h | grep app
-reat for ephemeral things, but you will be constrained by the amount of memory you have.
-This can be great for security and things you would not want to be stored on the file system
-This does not survive the death of the container
-2 containers cannot share a single tmpfs mount. 
-![image](https://user-images.githubusercontent.com/47553149/114821681-e50b3080-9dfb-11eb-9dc3-b4c6f8fd5c9d.png)
+   ```
+   - This can be great for security and things you would not want to be stored on the file system
+   - This does not survive the death of the container
+   - 2 containers cannot share a single tmpfs mount. 
 
 
 
