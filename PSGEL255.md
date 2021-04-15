@@ -237,6 +237,15 @@ docker image load < /tmp/mynewcentosimage.tar
 - Containers can NOT access each other's file system
 
 - **Bind Mount**
+  - Bind Mounts allow you to mount any folder from the host into the container
+  ```bash
+  docker container run -v /data/:/data_from_host/ -it centos:7 ls -al /data_from_host/
+  ```
+  - You can mount the same folders into multiple containers
+  - Whatever change was made to the mounted folder will survive the death of the container(s)
+  - Bind mounts can also be used to mount a single file 
+    - (e.g: /etc/hosts:/etc/hosts)
+
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
