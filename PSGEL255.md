@@ -271,6 +271,22 @@ docker image load < /tmp/mynewcentosimage.tar
    - This does not survive the death of the container
    - 2 containers cannot share a single tmpfs mount. 
 
+- **NFS mounts**
+  - You can either:
+    - Mount an NFS share onto the docker host, and then bind mount it into the container. OR
+    - You can create a Docker Volume of type NFS , and mount that into the container
+    ```bash
+    docker volume create --driver local \
+    	--opt type=nfs \
+	--opt o=addr=server02,rw \
+	--opt device=:/shareme/dir02 \
+	my_nfs_share
+    ```
+    ```bash
+    docker run -it -v my_nfs_share:/nfs centos:7 bash
+    ```
+    
+
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
