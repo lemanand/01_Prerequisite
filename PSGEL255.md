@@ -413,7 +413,42 @@ docker image load < /tmp/mynewcentosimage.tar
   echo "source <(kubectl completion bash)" >> ~/.bashrc
   ```
 
+**2.12 Kubernetes Basic Concepts - Namespaces**
+- Exercise: 02 131 Learning about Namespaces
+```bash
+# List of available namespace
+kubectl get ns
 
+# The Quick way - Create a namespace
+kubectl creat ns hare
+
+# The Longer way - Creat a namespace
+# Create manifest file
+tee /tmp/turtle_namespace.yaml > /dev/null << EOF
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: turtle
+  labels:
+    name: "my_turtle"
+    owner: "sas.com"
+EOF
+
+# Apply the manifest
+kubectl apply -f /tmp/turtle_namespace.yaml
+
+# Describing the namespace
+kubectl describe ns hare turtle
+
+# Deleting the namespace
+# The Fast way
+kubectl delete ns hare
+
+# The Slow way
+kubectl delete -f /tmp/turtle_namespace.yaml
+```
+- 
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
