@@ -326,7 +326,9 @@ docker image load < /tmp/mynewcentosimage.tar
 - Containers
   - Instead of configuring a machine to host your application, you have your application wrapped into a container
   - The application is wrapped along with everything the application neeeds - OS, libraries, dependencies, etc. 
-
+  - Containers are deployed on a machine that hosts the container engine which is in charge of actually running the containers
+  - Containers technically don't belong to Kubernetes; they're just one of the tools of the trade
+ 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
