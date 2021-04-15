@@ -285,7 +285,9 @@ docker image load < /tmp/mynewcentosimage.tar
     ```bash
     docker run -it -v my_nfs_share:/nfs centos:7 bash
     ```
-    
+**2.9 Containers Basic Concepts - Image Registry**
+- dfdsf
+- 
 
 
 
