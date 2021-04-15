@@ -246,6 +246,22 @@ docker image load < /tmp/mynewcentosimage.tar
   - Bind mounts can also be used to mount a single file 
     - (e.g: /etc/hosts:/etc/hosts)
 
+- **Docker Volumes**
+
+  - Docker volumes are similar to Bind Mounts, except they are managed by docker
+
+  ```bash
+  docker volume create my_data
+  docker container run -it -v my_data:/app centos:7 bash
+  ```
+  - They survive the container's death, they don't have a pre-determined size
+  - By default they are stored on the docker host in:
+	```bash
+	/var/lib/docker/volumes/
+	```
+
+  - Volumes, like bind mounts, can be attached to multiple containers simultaneously
+  - 
 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
