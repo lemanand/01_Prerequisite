@@ -311,6 +311,14 @@ docker image load < /tmp/mynewcentosimage.tar
       you could    export   -    scp   -    import 
       OR you could push your image to a registry and tell your colleagues how to pull the image down 
       
+**2.10 Kubernetes 101**
+- Kubernetes Cluster:
+  - Set of machines (computers) for running containerized applications that are called Nodes
+- Kubernetes v1.18 cluster can have:
+  - No more than 5,000 nodes
+  - No more than 150,000 pods
+  - No more than 300,000 containers
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
