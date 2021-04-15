@@ -395,6 +395,14 @@ docker image load < /tmp/mynewcentosimage.tar
     - The operator is not part of the SAS Viya deployment but is deployed in the SAS Viya namespace
     - Use of the SAS Viya Deployhment Operator is optional
 
+**2.11 Kubernetes Basic Concepts - Installing**
+- Managed Kubernetes Solutions
+  - Many technology vendors provide access to hosted Kubernetes deployments/platforms and services to create Kubernetes platforms
+  - [Kubernetes Documentation / Getting started](https://kubernetes.io/docs/setup/)
+  - [Kubernetes Partners](https://kubernetes.io/partners/#kcsp)
+  - 
+
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
