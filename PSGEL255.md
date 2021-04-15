@@ -278,9 +278,9 @@ docker image load < /tmp/mynewcentosimage.tar
     ```bash
     docker volume create --driver local \
     	--opt type=nfs \
-	--opt o=addr=server02,rw \
-	--opt device=:/shareme/dir02 \
-	my_nfs_share
+    	--opt o=addr=server02,rw \
+    	--opt device=:/shareme/dir02 \
+    	my_nfs_share
     ```
     ```bash
     docker run -it -v my_nfs_share:/nfs centos:7 bash
