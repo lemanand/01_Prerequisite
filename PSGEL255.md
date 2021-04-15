@@ -400,7 +400,19 @@ docker image load < /tmp/mynewcentosimage.tar
   - Many technology vendors provide access to hosted Kubernetes deployments/platforms and services to create Kubernetes platforms
   - [Kubernetes Documentation / Getting started](https://kubernetes.io/docs/setup/)
   - [Kubernetes Partners](https://kubernetes.io/partners/#kcsp)
-  - 
+- Install Kubectl
+  - Most interactions with Kubernetes are done from the command line, [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) client tool
+    - You can install kubectl on Linux, Mac, Windows
+  - The kubectl client is useless unless it's properly configured:
+  ```bash
+  ~/.kube/config
+  ```
+  - Auto-completion for kubectl is a really good idea
+  ```bash
+  yum install bash-completion -y
+  echo "source <(kubectl completion bash)" >> ~/.bashrc
+  ```
+
 
 
 
