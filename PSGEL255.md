@@ -473,6 +473,27 @@ kubectl cluster-info
 kubectl get nodes
 kubectl get ns
 
+kubectl create namespace mytest
+kubectl get ns
+kubectl delete ns mytest
+
+kubectl get all -n d <tab>
+kubectl <tab>
+kubectl get <tab> <tab>
+
+kubectl describe node intnode03
+kubectl describe node nodes
+
+# Look at Pods
+kubectl -n kube-system get po
+kubectl -n kube-system get po -o wide
+kubectl -n kube-system get po -o json
+kubectl get po --all-namespaces
+
+kubectl -n kube-system describe po canal-546dh
+
+
+
 ```
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
