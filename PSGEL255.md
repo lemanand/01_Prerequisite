@@ -221,6 +221,14 @@ docker image load < /tmp/mynewcentosimage.tar
     - in a durable storage location (e.g. AWS EBS)
   - If persisted data gets corrupted ... environment is corrupted...
 
+**2.9 Containers Basic Concepts - Storage**
+- **Docker Storage:**
+  - Container File System
+  - Bind Mount
+  - Docker Volume
+  - tmpfs
+  - Shared FS
+
 
 
 
