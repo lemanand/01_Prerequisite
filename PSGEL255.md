@@ -572,6 +572,12 @@ curl --header "Host: <the_alias_for_an_app>"  <any_name_of_server>
 curl -H "Host: insecure.fumi02.10.96.6.100.sslip.io"    server02:4001
 curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
 ```
+- Ingress - Advice
+  - Always try to test the access to your application independently of the ingress definition and controller
+  - Use curl, or port forward, if possible
+  - A mis-configured ingress will give you a 404 not found, and you'll think Viya is having issues. 
+  - Always go progressively towards the complexity, or you risk having to retrace your steps. 
+  - If Viya's not accessible, rule out the Ingress as soon as you can. 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
