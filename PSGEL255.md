@@ -552,7 +552,15 @@ exit <ctrl+c> exit
     - When using Cloud providers, generaes ELBs etc.
   - ExternalName:
     - Single IP added to the master?
-  
+- Hostname and Aliases
+  - How many ways can you reach a given machine?
+    - IP, Hostname, FQDN, DNS Alias, Alias in /etc/hosts
+  - Some software does not care what you used to get to a machine
+    - httpd
+  - Some software will honor your first request but force you to use a specific name for the subsequent ones. 
+    - SAS 9.4 mid-tier 
+  - Some Software will analyze the name you used and direct you to a place based on the name you used
+    - Ingress controller 
   
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
