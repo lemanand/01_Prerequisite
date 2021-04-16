@@ -535,7 +535,14 @@ exit <ctrl+c> exit
   - An API object that manages external access to the services in a cluster, typically HTTP
   - Ingress can provide load balancing, SSL termination and name-based virtual hosting
 - A batch job running on K8S needs no ingress
-- 
+- Ingress != Ingress Controller
+- Ingress is the definition of how a service is accessed
+  - which DNS alias to use
+  - send you to which service inside the cluster
+- Ingress Controller is the piece of software that makes it happen:
+  - NGINX, Traefik, Kong
+- You can have more than one Ingress Controller in your cluster
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
