@@ -542,8 +542,18 @@ exit <ctrl+c> exit
 - Ingress Controller is the piece of software that makes it happen:
   - NGINX, Traefik, Kong
 - You can have more than one Ingress Controller in your cluster
-
-
+- Publishing Services (Service Types)
+  - ClusterIP: 
+    - An IP for the service, internal to the cluster. Allows you to reach a service regardless of how many pods are behind it or where the pods are. 
+    - However, no port re-mapping.
+  - NodePort:
+    - A port listens on every single node in the cluster.
+  - LoadBalancer:
+    - When using Cloud providers, generaes ELBs etc.
+  - ExternalName:
+    - Single IP added to the master?
+  
+  
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
