@@ -529,8 +529,13 @@ exit <ctrl+c> exit
 ```
 
 **2.13 Kubernetes Basic Concepts - Ingress**
-- ddd
-
+- Ingress is Kubernetes Application Access
+  - It is a way to access the application runing inside your Kubernetes cluster
+- Kubernetes definion of Ingress:
+  - An API object that manages external access to the services in a cluster, typically HTTP
+  - Ingress can provide load balancing, SSL termination and name-based virtual hosting
+- A batch job running on K8S needs no ingress
+- 
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
