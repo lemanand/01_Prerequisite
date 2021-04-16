@@ -561,7 +561,18 @@ exit <ctrl+c> exit
     - SAS 9.4 mid-tier 
   - Some Software will analyze the name you used and direct you to a place based on the name you used
     - Ingress controller 
-  
+- Ingress = mapping of alias / port to actual application
+- Ingress Controller = Reads the ingress definition and makes it happen. 
+  - possibly runs as pod(s) on the cluster 
+- Useful tips to verify ingress
+```bash
+curl  <any_name_or_ip_of_server>
+curl  <the_alias_for_an_app> 
+curl --header "Host: <the_alias_for_an_app>"  <any_name_of_server>
+curl -H "Host: insecure.fumi02.10.96.6.100.sslip.io"    server02:4001
+curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
+```
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
