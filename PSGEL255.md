@@ -579,6 +579,16 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
   - Always go progressively towards the complexity, or you risk having to retrace your steps. 
   - If Viya's not accessible, rule out the Ingress as soon as you can. 
 
+**2.14 Kubernetes Basic Concepts - Storage**
+- Types of Storage
+  - EmptyDir
+  - Persistent Volumes
+  - Persistent Volume Claims
+  - Storage Classes
+  - Storage Provisionners
+
+**2.15 Kubernetes Basic Concepts - Scaling and Elasticity**
+
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
 ### Chapter 05. Deployment Tools <a name='Ch05'></a>
