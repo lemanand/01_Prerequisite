@@ -611,6 +611,12 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 
 **3.1 Licensing**
+- Viya 4 licensing follows a “Cloud native” model, embracing the possibilities of boundless scaling in the cloud.
+  - NOT related to number of CAS or SPRE cores
+  - Licensing by number/types of users or Total revenue
+  - SAS/ACCESS Products are no longer licensed separately (included in offerings as applicable.) 
+- Not for the initial Viya 4 releases, but in the plans: “Usage based” pricing, metered billing.
+
 
 **3.2 Software Orders- Basics**
 
