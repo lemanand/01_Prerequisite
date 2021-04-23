@@ -609,15 +609,25 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
 - The use of Horizontal Pods AutoScalers might impede the manual scaling of Viya
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
+
 **3.1 Licensing**
+
 **3.2 Software Orders- Basics**
+
 **3.3 Software Orders- Software Orders- Internal Tool**
+
 **3.4 Software Versions - Basics**
+
 **3.5 Software Versions - CD**
+
 **3.6 Software Offerings**
+
 **3.7 Obtaining files from SAS - manually**
+
 **3.8 Obtaining files from SAS - programatically**
+
 **3.9 Deployment Files**
+
 **3.10 Viya 4 Deployment - Compared to Past Versions**
 
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
