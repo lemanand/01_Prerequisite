@@ -616,6 +616,23 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
   - Licensing by number/types of users or Total revenue
   - SAS/ACCESS Products are no longer licensed separately (included in offerings as applicable.) 
 - Not for the initial Viya 4 releases, but in the plans: “Usage based” pricing, metered billing.
+- Licensing check:
+  - Product licenses expires on a (typically) year-long basis. 
+  - There is no check on the number of cores for CAS or any other component.
+- The license file can be downloaded from the [my.sas.com](https://my.sas.com/) portal
+- The license file is only available with the .jwt format (JSON Web Token)
+  - This file is encoded, not human readable
+  - Applying a new license requires a restart of your CAS server or servers,
+    - This causes the termination of all active connections and sessions and the loss of any in-memory data.
+- Update your software license
+  - When the license is renewed, an email is sent to the customer with a link to the my.sas.com portal
+  - A new line appears in the SAS portal (new Order number)
+  - A customer will download their new license from the my.sas.com portal and apply it to an existing environment using the Kubernetes “kubectl apply” command. 
+  - Modify kustomization.yaml to add/enable a secretGenerator pointing on the JWT license file.
+  - Create/update the Kubernetes manifests (kustomize build -o site.yaml)
+  - Deploy the software (kubectl apply -f site.yaml)
+  - The CAS server and the CAS operator needs to be restarted (refer to the GEL Administration VLE for additional details)
+  - License updates can also occur as part of a regular software update.
 
 
 **3.2 Software Orders- Basics**
