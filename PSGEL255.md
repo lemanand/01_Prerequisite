@@ -588,6 +588,16 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
   - Storage Provisionners
 
 **2.15 Kubernetes Basic Concepts - Scaling and Elasticity**
+- Scalability: Like a belt, require manual Human intervention
+- Elasticity: Like "stretchy pants", doesn't require Human intervention
+- If you can’t Scale, you can’t be Elastic!
+  - Scalability is a pre-condition of Elasticity
+  - Elasticity is scalability that you don't need to manage
+- Kubernetes makes it a lot easier to scale (compared to BareOS):
+  - But that does not mean it behaves in the way you might expect
+
+
+
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
