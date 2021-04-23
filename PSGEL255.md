@@ -595,9 +595,18 @@ curl http://insecure.fumi02.10.96.6.100.sslip.io:4001/
   - Elasticity is scalability that you don't need to manage
 - Kubernetes makes it a lot easier to scale (compared to BareOS):
   - But that does not mean it behaves in the way you might expect
-
-
-
+- The problem is not that we cannot scale
+- The problem is what happens when we do scale...
+  - Can we scale the Stateful applications? 
+    - (postgres, RabbitMQ, Consul)
+  - What happens to the data stored in CAS when the cluster goes from 5 workers, to 20 workers, and then back down to 10? (manual scaling)
+  - What metric do we use to trigger a scale out or a scale in?
+    - Is the CPU too high?
+    - Are we running out of memory?
+    - Is the response time of the application increasing? Does scaling change that?
+- Kubernetes will happily scale anything
+- Viya may or may not react to being scaled in a productive manner
+- The use of Horizontal Pods AutoScalers might impede the manual scaling of Viya
 
 ### Chapter 03. Viya 4 Software Specifics <a name='Ch03'></a>
 ### Chapter 04. Pre-Requisites <a name='Ch04'></a>
